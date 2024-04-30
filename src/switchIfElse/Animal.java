@@ -6,13 +6,16 @@ public static final int CODIGO_PERRO = 1000;
 public static final int CODIGO_GATO = 2000;
 public static final int CODIGO_PAJARO = 3000;
 	
-	
+
 	private int codigo_animal;
 	
 	
 	
 	
-	
+	/**
+	 * constructor con el codigo del animal
+	 * @param codigo_animal que implementamos con un codigo estatico por animal 
+	 */
 	public Animal(int codigo_animal) {
 		super();
 		this.codigo_animal = codigo_animal;
@@ -20,7 +23,7 @@ public static final int CODIGO_PAJARO = 3000;
 
 
 
-
+	
 
 	public String hacerSonido(int codigo_animal) {
 		
